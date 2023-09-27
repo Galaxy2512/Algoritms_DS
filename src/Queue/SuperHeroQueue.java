@@ -1,5 +1,10 @@
 package Queue;
-
+//Queue je struktura podataka koja radi po principu FIFO (First In First Out) - prvi unutra, prvi van.
+//queue imamo dvije metode: offer i poll
+//offer dodaje element na kraj reda
+//poll uzima element sa pocetka reda
+//peek uzima element sa pocetka reda ali ga ne brise
+//queue je interface, a linkedlist je implementacija queuea
 import java.util.LinkedList;
 import java.util.Queue;
 

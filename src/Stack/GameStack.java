@@ -1,4 +1,10 @@
 package Stack;
+//Stack je struktura podataka koja radi po principu LIFO (Last In First Out) - zadnji unutra, prvi van.
+//stack imamo dvije metode: push i pop
+//push dodaje element na vrh stoga
+//pop uzima element sa vrha stoga
+//peek uzima element sa vrha stoga ali ga ne brise
+//stack je interface, a linkedlist je implementacija stacka
 
 import java.util.Stack;
 
