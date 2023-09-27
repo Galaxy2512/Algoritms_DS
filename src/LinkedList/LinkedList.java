@@ -9,6 +9,9 @@ package LinkedList;
 //npr. ako imamo listu 1, 2, 3, 4, 5, head pokazuje na 1, 1.next pokazuje na 2, 2.next pokazuje na 3 itd.
 //svaki cvor ima adresu koja pokazuje na sljedeci cvor, cvor a ima adresu cvora b, cvor b ima adresu cvora c itd.
 
+//linked list ima add, remove, get, set, size, isEmpty, clear, contains, indexOf, lastIndexOf, toArray metode
+//add dodaje element na kraj liste
+
 
 public class LinkedList {
     public static void main(String[] args) {
@@ -22,6 +25,11 @@ public class LinkedList {
         linkedList.add(2);
         linkedList.add(4);
 
+        linkedList.push(6);
+        linkedList.pop();
+        linkedList.add(1, 7);
+
+
         // Ispisivanje elemenata liste
         System.out.println("Lista: " + linkedList);
 
@@ -33,4 +41,7 @@ public class LinkedList {
         linkedList.add(5);
     }
 
+    public void add(String s) {
+
+    }
 }
