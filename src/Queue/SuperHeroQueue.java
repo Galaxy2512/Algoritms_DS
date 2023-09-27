@@ -5,6 +5,7 @@ package Queue;
 //poll uzima element sa pocetka reda
 //peek uzima element sa pocetka reda ali ga ne brise
 //queue je interface, a linkedlist je implementacija queuea
+//queue se koristi za redove cekanja, npr. red za cekanje na blagajni u trgovini, red za cekanje na ulaz u koncertnu dvoranu itd.
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -32,5 +33,6 @@ public class SuperHeroQueue {
 
         // Printing the updated queue
         System.out.println("Updated superhero queue: " + superheroQueue);
+
     }
 }
