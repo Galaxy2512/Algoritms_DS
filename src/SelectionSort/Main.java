@@ -1,6 +1,7 @@
 package SelectionSort;
 //Selection sort je algoritam sortiranja nizom koji radi tako da prolazi kroz niz i traži najmanji element.
-//Nakon što pronađe najmanji element, on ga zamjenjuje s prvim elementom u nizu.
+//Nakon što pronađe najmanji element, on ga zamjenjuje s prvim elementom u nizu, zatim traži drugi najmanji element i zamjenjuje ga s drugim elementom u nizu, itd.
+//postavlja u temp najmanji element, a zatim ga zamjenjuje s prvim elementom u nizu
 //Složenost algoritma je O(n^2) u najgorem slučaju, gdje je n broj elemenata u nizu.
 //koristimo ga kada je niz mali, kada je niz skoro sortiran ili kada je niz nesortiran.
 //Selection sort je manje efikasan od insertion sorta i bubble sorta.
