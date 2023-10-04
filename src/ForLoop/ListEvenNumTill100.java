@@ -20,7 +20,23 @@ public class ListEvenNumTill100 {
             }
         }
 
+        System.out.println(" *********************************");
+
+        for (int i = 2; i <= 100; i += 2) {
+            if (i % 2 == 0) {
+                System.out.print(i + "    ");
+
+            }
+
+
+        }
+
+
+
+
+        }
+
 
     }
-}
+
 
