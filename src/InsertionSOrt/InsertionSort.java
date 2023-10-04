@@ -14,8 +14,7 @@ public class InsertionSort {
             System.out.println(array[i]);
         }
         insertionSort(array); // Poziv metode za sortiranje
-        System.out.println("Sor" +
-                "ted array: ");
+        System.out.println("Sorted array: ");
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]); // Ispis sortiranog niza
         }

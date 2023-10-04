@@ -24,14 +24,14 @@ public class Main {
             // Implementacija algoritma pretraživanja ovdje
             int left = 0;
             int right = array.length - 1;
-            while (left <= right) {
-                int middle = (left + right) / 2;
-                if (array[middle] == target) {
+            while (left <= right) { // Dok lijevi indeks ne postane veći od desnog
+                int middle = (left + right) / 2; // Srednji indeks
+                if (array[middle] == target) { // Ako je srednji element jednak traženom elementu
                     return middle;
                 } else if (array[middle] < target) {
-                    left = middle + 1;
+                    left = middle + 1; // Traženi element je u desnoj polovici
                 } else {
-                    right = middle - 1;
+                    right = middle - 1;// Traženi element je u lijevoj polovici
                 }
             }
             return -1; // Element nije pronađen
